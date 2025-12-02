@@ -52,7 +52,6 @@ Building LLM applications
 
 MLOps and model deployment
 
-📂 Folder Structure (Recommended)
 AI-ML-Journey/
 │
 ├── Day 01/
@@ -69,6 +68,7 @@ AI-ML-Journey/
 │   └── ...
 │
 └── README.md
+
 
 🧠 Goals for the 60 Days
 
