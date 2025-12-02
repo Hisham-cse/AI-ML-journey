@@ -52,22 +52,6 @@ Building LLM applications
 
 MLOps and model deployment
 
-AI-ML-Journey/
-│
-├── Day 01/
-│   ├── notes.md
-│   ├── house_price_prediction.py
-│   ├── spam_classifier.py
-│   ├── marks_prediction.py
-│   ├── weather_prediction.py
-│
-├── Day 02/
-│   ├── ...
-│
-├── projects/
-│   └── ...
-│
-└── README.md
 
 
 🧠 Goals for the 60 Days
