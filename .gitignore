@@ -1,0 +1,166 @@
+# -----------------------------
+# Python Bytecode
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# -----------------------------
+# Virtual Environments (Ignore ANY venv anywhere)
+# -----------------------------
+venv/
+VENV/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Ignore venv inside any subdirectory
+**/venv/
+**/.venv/
+**/env/
+**/ENV/
+
+# -----------------------------
+# Packaging
+# -----------------------------
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+sdist/
+develop-eggs/
+
+# -----------------------------
+# Jupyter Notebook
+# -----------------------------
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Jupyter temp/convert artifacts
+.jupyter/
+*.nbconvert/
+
+# -----------------------------
+# IDE / Editors
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# Data Files (AI/ML)
+# -----------------------------
+data/
+datasets/
+**/data/
+**/datasets/
+
+# Common data formats
+*.csv
+*.tsv
+*.json
+*.xml
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.pickle
+*.pkl
+*.joblib
+
+# Large compressed files
+*.zip
+*.gz
+*.tar
+*.bz2
+*.7z
+
+# Image, audio, video datasets
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.tiff
+*.svg
+*.mp4
+*.avi
+*.mov
+*.wav
+*.mp3
+
+# -----------------------------
+# Trained Model Files
+# -----------------------------
+*.h5
+*.hdf5
+*.pb
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.sav
+*.weights
+
+# TF/PyTorch folders
+checkpoints/
+runs/
+logs/
+tensorboard/
+tb_logs/
+
+# HuggingFace cache
+.cache/huggingface/
+transformers_cache/
+datasets_cache/
+huggingface/
+
+# -----------------------------
+# Cache / Temp
+# -----------------------------
+.cache/
+*.cache
+*.temp
+*.tmp
+tmp/
+temp/
+__pycache__/
+.ipython/
+
+# -----------------------------
+# Environment & Secrets
+# -----------------------------
+.env
+.env.*
+*.pem
+*.key
+*.db
+*.sqlite
+*.sqlite3
+credentials.json
+config.json
+
+# Cloud credentials
+.aws/
+.gcp/
+.azure/
+
+# -----------------------------
+# Docker
+# -----------------------------
+docker-data/
+*.pid
+*.log
+
+# -----------------------------
+# OS / Misc
+# -----------------------------
+.DS_Store
+Thumbs.db
